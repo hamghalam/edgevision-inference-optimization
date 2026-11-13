@@ -1,0 +1,7 @@
+torch
+torchvision
+qai-hub
+onnx
+onnxruntime
+numpy
+Pillow

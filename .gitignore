@@ -1,0 +1,50 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.env
+*.log
+
+# Generated model artifacts
+models/*.onnx
+models/*.pt
+models/*.pth
+models/*.bin
+
+# Benchmark outputs
+benchmarks/*.csv
+benchmarks/*.json
+
+# Python caches
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Generated model files
+*.onnx
+*.onnx.data
+*.pt
+*.pth
+*.bin
+*.zip
+models/qualcomm_compiled/
+
+# Generated benchmark arrays
+benchmarks/*.npy
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.log
+
+# Keep the Qualcomm Snapdragon profiling evidence
+!benchmarks/snapdragon_profile.json
